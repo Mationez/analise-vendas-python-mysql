@@ -1,7 +1,7 @@
 # 🛍️ Análise de Vendas com Python e MySQL
 
 ## 📄 Descrição
-Meu projeto foi feito com o intuito de simular uma análise de dados de uma loja fictícia, utilizando **Python**, **MySQL** e bibliotecas de tratamento e visualização de dados. O objetivo é extrair dados de um banco de dados relacional, tratá-los com **Pandas** e gerar análises visuais, além de exportar os dados para **Excel**.
+Meu projeto foi feito com o intuito de simular uma análise de dados de uma loja fictícia, utilizando **Python**, **MySQL** e bibliotecas de tratamento e visualização de dados. O objetivo é extrair dados de um banco de dados relacional, tratá-los com **Pandas** e gerar análises visuais, além de exportar os dados para **Excel** e fazer uma análise mais detalhada.
 
 ---
 
