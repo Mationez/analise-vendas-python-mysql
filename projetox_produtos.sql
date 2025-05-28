@@ -28,7 +28,7 @@ CREATE TABLE `produtos` (
   `categoria` varchar(50) NOT NULL,
   `preco` decimal(10,2) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `produtos` (
 
 LOCK TABLES `produtos` WRITE;
 /*!40000 ALTER TABLE `produtos` DISABLE KEYS */;
-INSERT INTO `produtos` VALUES (1,'Notebook','Eletrônicos',3000.00),(2,'Mouse','Eletrônicos',50.00),(3,'Caderno','Papelaria',20.00),(4,'Caneta','Papelaria',5.00);
+INSERT INTO `produtos` VALUES (1,'Notebook','Eletrônicos',3000.00),(2,'Mouse','Eletrônicos',50.00),(3,'Caderno','Papelaria',20.00),(4,'Caneta','Papelaria',5.00),(5,'Smartphone Samsung Galaxy S22','Eletrônicos',4299.90),(6,'Notebook Dell Inspiron 15','Eletrônicos',3899.00),(7,'Smart TV LG 55\" 4K','Eletrônicos',2999.90),(8,'Fone de Ouvido JBL Bluetooth','Eletrônicos',399.90),(9,'PlayStation 5','Eletrônicos',4499.90),(10,'Mouse Gamer Logitech G502','Eletrônicos',299.90),(11,'Teclado Mecânico Redragon','Eletrônicos',349.90),(12,'Monitor Samsung 24\" LED','Eletrônicos',799.90),(13,'Caixa de Som Bluetooth JBL Flip 6','Eletrônicos',599.90),(14,'Echo Dot (Alexa) 5ª Geração','Eletrônicos',349.00);
 /*!40000 ALTER TABLE `produtos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-26  4:08:01
+-- Dump completed on 2025-05-28  3:50:47
