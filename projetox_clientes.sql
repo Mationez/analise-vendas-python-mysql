@@ -27,7 +27,7 @@ CREATE TABLE `clientes` (
   `nome` varchar(100) NOT NULL,
   `cidade` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `clientes` (
 
 LOCK TABLES `clientes` WRITE;
 /*!40000 ALTER TABLE `clientes` DISABLE KEYS */;
-INSERT INTO `clientes` VALUES (1,'Alice','São Paulo'),(2,'Bruno','Rio de Janeiro'),(3,'Carla','Curitiba');
+INSERT INTO `clientes` VALUES (1,'Alice','São Paulo'),(2,'Bruno','Rio de Janeiro'),(3,'Carla','Curitiba'),(4,'Carlos Silva','São Paulo'),(5,'Ana Souza','Rio de Janeiro'),(6,'Marcos Lima','Belo Horizonte'),(7,'Fernanda Oliveira','Curitiba'),(8,'Rafael Costa','Porto Alegre');
 /*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-26  4:08:01
+-- Dump completed on 2025-05-28  3:50:47
